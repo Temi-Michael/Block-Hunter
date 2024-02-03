@@ -31,7 +31,7 @@
     color: var(--text-1);
 }
 
-li {
+.back-drop {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -40,7 +40,7 @@ li {
 .back-drop:hover {
     background-color: var(--dark-3);
     border-radius: 20px;
-    width: 130%;
+    width: 100px;
     height: 30px;
 }
 
@@ -49,12 +49,17 @@ li {
     width: 65px;
 }
 
+option {
+    background-color: var(--dark-3);
+}
+
 .dash {
     width: 120px;
     height: 30px;
     text-align: center;
     border-radius: 20px;
     background-color: var(--main-1);
+    margin-left: 30px;
 
 }
 
@@ -69,4 +74,5 @@ li {
     border-radius: 9999px;
     background-color: var(--text-0);
     color: var(--main-1);
+    margin-left: 10px;
 }
