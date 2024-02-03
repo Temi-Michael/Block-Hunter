@@ -1,0 +1,72 @@
+:root {
+    --dark-0: #14151a;
+    --dark-1: #202129;
+    --dark-2: #282933;
+    --dark-3: #5a5c72;
+    --main-0: #7f5f01;
+    --main-1: #fed24c;
+    --main-2: #fedb72;
+    --text-0: #505266;
+    --text-1: #9d9fb3;
+    --weight : light;
+    scroll-behavior: smooth;
+}
+
+/* GENERAL NAVIGATION BAR STYLES */
+
+
+.head {
+    margin-top: 30px;
+}
+
+.logo-img {
+    width: 200px;
+
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    font-weight: var(--weight);
+    color: var(--text-1);
+}
+
+li {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.back-drop:hover {
+    background-color: var(--dark-3);
+    border-radius: 20px;
+    width: 130%;
+    height: 30px;
+}
+
+.currency {
+    border: none;
+    width: 65px;
+}
+
+.dash {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--main-1);
+
+}
+
+.dash:hover {
+    background-color: var(--main-2);
+}
+
+.sign {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 9999px;
+    background-color: var(--text-0);
+    color: var(--main-1);
+}
