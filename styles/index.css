@@ -18,6 +18,7 @@ body {
 }
 
 .head {
+    font-family: inter, sans-serif;
     margin-top: 30px;
     /* margin: auto; */
 }
@@ -66,6 +67,12 @@ body {
 .back-drop:hover {
     background-color: var(--dark-3);
 
+}
+
+.dollar {
+    color: var(--main-2);
+    border: none;
+    background-color: transparent;
 }
 
 .currency {
